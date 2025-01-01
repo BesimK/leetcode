@@ -3,11 +3,11 @@
     "target": "ES6", // ES6 hedef alınacak
     "module": "commonjs", // Modül sistemi olarak CommonJS
     "outDir": "./dist", // Çıktı dizini
-    "rootDir": "./src", // Kaynak dosyalarının bulunduğu dizin
+    "rootDir": "./", // Kaynak dosyalarının bulunduğu dizin
     "strict": true, // Sıkı tip kontrolü
     "esModuleInterop": true, // ES modüllerinin uyumluluğu
     "skipLibCheck": true // Kütüphane kontrolünü atla
   },
-  "include": ["src/**/*"], // kaynak dosyalarının bulunduğu dizin
+  "include": ["leetcode_common", "leetcode75"], // kaynak dosyalarının bulunduğu dizin
   "exclude": ["node_modules"] // dışarıda bırakılacak dosya/dizin
 }
